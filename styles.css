@@ -107,3 +107,9 @@ a {
     border-radius: 8px;
     margin-left: 2rem;
 }
+
+.blog {
+    font-family: 'Montserrat', sans-serif;
+    margin-left:10%;
+    margin-right:10%;
+}
