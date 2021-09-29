@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 :root {
     --theme-color : #F9A826;
@@ -16,7 +17,6 @@ h1 {
 .header{
     font-family: 'Bebas Neue', cursive;
     font-size:x-large;
-    padding-bottom: 4rem;
 }
 
 .top-menu-item{
@@ -79,4 +79,31 @@ a {
     display: flex;
     justify-content: center;
     font-size: xx-large;
+}
+
+.heading-content {
+    border: 2px solid white;
+    border-radius: 24px;
+    display: flex;
+    justify-content: cenleftter;
+    margin-bottom: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.button-source {
+    border:2px solid white;
+    padding: 1rem;
+    /* background-color: var(--theme-color); */
+    border-radius: 8px;
+    margin-left: 2rem;
+}
+
+.button-project {
+    border:2px solid white;
+    padding: 1rem;
+    background-color: var(--theme-color);
+    border-radius: 8px;
+    margin-left: 2rem;
 }
